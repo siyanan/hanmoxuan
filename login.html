@@ -1,0 +1,195 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+	<head>
+		<title>login.html</title>
+
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1″ />
+
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<script type="text/javascript" src="myJguery/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+
+	<body>
+		<!-- 大的背景 -->
+		<div id="all">
+			<!-- 控制居中 -->
+			<div id="content" align="center">
+				<!-- 头部部分 -->
+				<div id="header">
+					<a href="index.html" id="logo"></a>
+					<div class="bind-phone">
+						为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！
+					</div>
+					<a href="#" class="login">
+						<i></i> 我想对"登录"提意见
+					</a>
+				</div>
+				<!-- 登陆部分 -->
+				<div id="login">
+					<a href="#" id="imgLink"></a>
+					<div id="loginContent">
+						<!-- 第一部分 -->
+						<div class="login-tab">
+							<a href="javascript:void(0)" class="tab-itemOn">
+								<span id="rightBorder">扫码登录</span>
+								<i></i>
+							</a>
+							<a href="javascript:void(0)" class="tab-item">
+								<span>账户登录</span>
+								<i></i>
+							</a>
+						</div>
+						<!-- 第二部分 -->
+						<div id="seachCode">
+							<!-- 扫码登录 -->
+							<img src="reImg/ate.png" id="code" />
+							<img src="reImg/scan.png" id="phoneCode" style="display: none;"/>
+							<div id="loseEfficacy">
+								<p>二维码已失效</p>
+								<a href="javascript:void(0)" class="button">点击刷新</a>
+							</div>
+							<p class="open-app">
+								<i></i> 打开
+								<a id="DOWNLOAD_APP" href="#">
+									<em>汉墨轩APP</em>
+								</a>
+								扫码登录
+							</p>
+						</div>
+						<a id="FREE_TO_REG" href="register.html">
+							免费注册 有惊喜 &gt;
+						</a>
+						<div id="accountLogin" style="display: none;">
+							<!-- 账号登录 -->
+							<form action="index.html">
+								<div id="checkError" align="left">
+									<i></i>
+								</div>
+								<div id="account" align="left">
+									<b class="blurAccount"></b>
+									<input type="text" value="请输入账号">
+									<i></i>
+								</div>
+								<div id="password">
+									<b class="blurPassword"></b>
+									<input type="text" value="请输入密码">
+									<i></i>
+								</div>
+								<div id="messageF" align="left">
+									<i></i>
+									<a href="#" id="message">短信验证码登录</a>
+									<a href="#" id="forget">忘记密码？</a>
+								</div>
+								<input type="submit" value="登录" id="submit">
+							</form>
+						</div>
+						<!-- 第三部分 -->
+						<div class="bind-login">
+							<span class="title">使用以下账号登录</span>
+							<div class="common" align="left">
+								<a href="javascript:void(0);" class="qq">
+									<i></i> QQ
+								</a>
+								<span>|</span>
+								<a href="javascript:void(0);" class="weixin">
+									<i></i> 微信
+								</a>
+								<span>|</span>
+								<a href="javascript:void(0);" class="yifubao">
+									<i></i> 易付宝
+								</a>
+								<span>|</span>
+								<a href="javascript:void(0);">
+									门店会员卡
+								</a>
+								<span>|</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 底部链接 -->
+				<div class="ng-s-f-con">
+					<p class="ng-url-list">
+						<a href="#"> 墨宁云商</a>
+						<span>|</span>
+						<a href="#"> 墨宁互联</a>
+						<span>|</span>
+						<a href="#">墨宁金融</a>
+						<span>|</span>
+						<a href="#">易付宝</a>
+						<span>|</span>
+						<a href="#">PPTV</a>
+						<span>|</span>
+						<a href="#">红孩子</a>
+						<span>|</span>
+						<a href="#">缤购</a>
+						<span>|</span>
+						<a href="#">乐购仕 </a>
+						<span>|</span>
+						<a href="#">墨宁物流</a>
+						<span>|</span>
+						<a href="#">墨宁美国</a>
+						<span>|</span>
+						<a href="#">墨宁香港</a>
+						<span>|</span>
+						<a href="#">移动版汉墨轩</a>
+					</p>
+					<p class="ng-url-list">
+						<a href="#">关于汉墨轩</a>
+						<span>|</span>
+						<a href="#">联系我们</a>
+						<span>|</span>
+						<a href="#">诚聘英才</a>
+						<span>|</span>
+						<a href="#">供应商入驻</a>
+						<span>|</span>
+						<a href="#">墨宁联盟</a>
+						<span>|</span>
+						<a href="#">墨宁招标</a>
+						<span>|</span>
+						<a href="#">友情链接</a>
+						<span>|</span>
+						<a href="#">法律申明</a>
+						<span>|</span>
+						<a href="#">用户体验提升计划</a>
+						<span>|</span>
+						<a href="#">股东会员认证</a>
+					</p>
+					<p class="ng-copyright" style="display: block;">
+						Copyright? 2002-2017 ，墨宁云商集团股份有限公司版权所有
+						<a href="#" style="color:#999">墨ICP备10207551号-4</a>
+						<span>|</span>
+						<a href="#" style="color:#999">墨B1-20130131</a>
+						<span>|</span>
+						<a href="#" style="color:#999">墨B2-20130376</a>
+						<span>|</span>
+						<a href="#" style="color:#999">墨B2-20130391</a>
+						出版物经营许可证新出发苏批字第A-243号
+					</p>
+					<div class="ng-authentication" style="display: block;">
+						<a href="#">
+							<img src="reImg/chengxin.png" height="24" width="76" alt="诚信网站">
+						</a>
+						<a href="#">
+							<img src="reImg/unicom.png" height="24" width="76" alt="中国联通授权网络经营代理商">
+						</a>
+						<a href="#">
+							<img src="reImg/dianxin.jpg" height="24" width="76" alt="中国电信授权网络经营代理商">
+						</a>
+						<a href="#">
+							<img src="reImg/dianzi.png" height="24" width="76" alt="电子营业执照">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
