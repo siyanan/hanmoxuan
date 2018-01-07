@@ -48,7 +48,7 @@ margin:10px 100px;
 }
 #logo-search form{   /*搜索框*/
 position: absolute;
-left:440px;
+left:32.6%;
 top:30px;
 }
 #logo-search form input{
@@ -116,10 +116,9 @@ z-index: 1;
 left: 0;
 }
 .big-revolveImg{  /*大图尺寸*/
-width:840px;
+width:65%;
 height:448px;
-position: relative;
-left:15px;
+margin: 0 auto;
 cursor: pointer;
 }
 .smallBg1,.smallBg2{  /*小图背景*/
@@ -131,17 +130,17 @@ background-color: rgba(255,255,255,0.5);
 .smallBg1{   /*小图位置*/
 position: absolute;
 top:7px;
-left:950px;
+left:70.42%;
 }
 .smallBg2{
 position: absolute;
 top:230px;
-left:950px;
+left:70.42%;
 }
 .smallBg1-top{   /*小图上的内容位置*/
 position: absolute;
 top:7px;
-left:950px;
+left:70.42%;
 cursor: pointer;
 }
 .smallBg1-top:hover{
@@ -150,13 +149,13 @@ background-color: rgba(255,255,255,0.7);
 .smallBg2-top{
 position: absolute;
 top:230px;
-left:950px;
+left:70.42%;
 cursor: pointer;
 }
 .smallBg2-top:hover{
 background-color: rgba(255,255,255,0.7);
 }
-.smallBg1-top{   /*小图上的内容*/
+.smallBg1-top,.smallBg2-top{   /*小图上的内容*/
 width:152px;
 height:215px;
 display:inline-block;
@@ -194,8 +193,7 @@ width: 140px;
 height: 140px;
 }
 #change{        /*左右切换图标*/
-width:838px !important;
-width:838px;
+width:62%;
 height:66px;
 position: absolute;
 top: 375px;
@@ -221,8 +219,7 @@ background: url(../imges/index.png) -44px -8px;
 #whell{   /*原点轮播 */
 position: absolute;
 top:585px;
-left: 482px !important;
-left: 520px;
+left: 35.73%;
 z-index: 1;
 }
 #whell div{
@@ -250,10 +247,8 @@ width: 200px;
 height: 448px;	
 background-color: #FFF;
 position:absolute;
-top: 172px !important;
-left: 75px !important;
-top: 176px;
-left: 73px;
+top: 172px;
+left: 5.55%;
 z-index: 1;
 box-sizing: border-box;
 
@@ -531,10 +526,8 @@ width: 170px;
 height: 448px;
 background-color: #FFF;
 position:absolute;
-top: 172px !important;
-right: 75px !important;
-top: 176px;
-right: 70px;
+top: 172px;
+right: 5.55%;
 z-index: 1;
 border: 1px #EEEEEE solid;
 box-sizing: border-box;
